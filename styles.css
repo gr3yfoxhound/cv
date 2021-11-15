@@ -1,0 +1,162 @@
+/*********************************** TAG SELECTOR ***********************************/
+body {
+  color: #2B4450;
+  background-color: #105652;
+  margin: 0;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  color: #DFD8CA;
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  margin: 50px auto 0 auto;
+  font-weight: normal;
+}
+
+h2 {
+  color: #FBF3E4;
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: normal;
+}
+
+hr {
+  color: #B91646;
+  border: none;
+  border-top: dotted;
+  border-width: 10px;
+  width: 10%;
+  margin-top: 30px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+a:link {
+  color: #DFD8CA;
+}
+
+a:visited {
+  color: #FBF3E4;
+}
+
+a:hover {
+  color: #B91646;
+}
+
+/*********************************** CLASS SELECTOR ***********************************/
+.top-container {
+  background-color: #105652;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 350px;
+}
+
+.middle-container {
+  background-color: #DFD8CA;
+}
+
+.introduction {
+  margin: auto;
+  width: 60%;
+}
+
+.h2_div {
+  color: #105652;
+  font-weight: bold;
+}
+
+.pet_play {
+  max-width: 15%;
+  height: auto;
+}
+
+.profile_pic {
+  margin-top: 50px;
+}
+
+.h3_skill_description {
+  margin-bottom: 0;
+}
+
+.p_skill_description {
+  margin-top: 0;
+}
+
+.skill-row {
+  margin: 50px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill_imgs {
+  background-color: #105652;
+  max-width: 35%;
+  margin-right: 30px;
+  height: auto;
+  border-radius: 10%;
+  float: left;
+}
+
+.right_image {
+  float: right;
+  margin-left: 30px;
+}
+
+.sun {
+  max-width: 10%;
+  height: auto;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.contact-me {
+  padding-bottom: 30px;
+}
+
+.h3_contact {
+  padding-bottom: 30px;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Pacifico', cursive;
+  color: #FBF3E4;
+  font-size: 25px;
+  background: #B91646;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #105652;
+  text-decoration: none;
+}
+
+.bottom-container {
+  color: #FBF3E4;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: 'Pacifico', cursive;
+}
